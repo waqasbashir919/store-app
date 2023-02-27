@@ -1,0 +1,4 @@
+products = searchProduct
+                .where((element) =>
+                    element.title.toLowerCase().contain(value.toLowerCase()))
+                .toList();
